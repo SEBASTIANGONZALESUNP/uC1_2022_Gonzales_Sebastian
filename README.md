@@ -27,3 +27,6 @@ UNIVERSIDAD NACIONAL DE PIURA, PERÚ
 		Este es un programa que permite mostrar los valores alfanuméricos (0-9 y A-F) en un display de 7 segmentos ánodo común, conectados al puerto D. Este programa cumple con las siguientes condiciones:
 		- Si el botón de la placa no esta presionado, se muestran los valores numéricos del 0 al 9.
 		- Si el botón de la placa se mantiene presionado, se muestran los valores de A hasta F.
+- **Parcial_2_p1:** 
+	 -  *Secuencia_leds.s:*	
+Este es un programa para que al presionar el botón de placa se ejecute un patrón de encendidos de leds previamente establecido en los pines del puerto C de la placa. La secuencia se detiene al presionar otro pulsador externo conectado en el pin RB4 o hasta que el número de repeticiones sea 5. Otro pulsador externo conectado al RF2 reinicia toda la secuencia y apaga los leds.
